@@ -5,6 +5,10 @@ var blogPostSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  content: {
+    type: String,
+    required: true
+  },
   userId: {
     type: mongoose.Schema.Types.ObjectId,
     required: true,
