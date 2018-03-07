@@ -14,8 +14,9 @@ export default {
       type: new GraphQLNonNull(commentInputType)
     }
   },
-  async resolve (root, params, options) {
+  async resolve(root, params, options) {
     const commentModel = new CommentModel(params.data);
+    //console.log('Comment', commentModel);
     const newComment = await commentModel.save();
 
     if (!newComment) {

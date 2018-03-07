@@ -3,7 +3,9 @@ import {
   GraphQLID,
   GraphQLNonNull
 } from 'graphql';
-import {Types} from 'mongoose';
+import {
+  Types
+} from 'mongoose';
 
 import blogPostType from '../../types/blog-post';
 import getProjection from '../../get-projection';
@@ -17,12 +19,14 @@ export default {
       type: new GraphQLNonNull(GraphQLID)
     }
   },
-  resolve (root, params, options) {
+  resolve(root, params, options) {
     const projection = getProjection(options.fieldASTs[0]);
-
+    console.log(projection);
     return BlogPostModel
       .findById(params.id)
-      .populate({path: 'userId'})
+      .populate({
+        path: 'userId'
+      })
       .select(projection)
       .exec();
   }

@@ -6,6 +6,7 @@ import {
 } from 'graphql';
 
 import UserType from './user';
+import CommentType from './comment';
 
 export default new GraphQLObjectType({
     name: 'BlogPost',
