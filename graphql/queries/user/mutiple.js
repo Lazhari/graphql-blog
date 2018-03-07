@@ -9,12 +9,13 @@ import UserModel from '../../../models/user';
 export default {
     type: new GraphQLList(userType),
     args: {},
-    resolve (root, params, options) {
+    resolve(root, params, options) {
         const projection = getProjection(options.fieldASTs[0]);
 
         return UserModel
-        .find()
-        .select(projection)
-        .exec();
+            .aggregate([{
+                $project: projection
+            }])
+            .exec();
     }
 };

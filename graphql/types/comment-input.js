@@ -14,7 +14,7 @@ export default new GraphQLInputObjectType({
     postId: {
       type: new GraphQLNonNull(GraphQLID)
     },
-    text: {
+    body: {
       type: new GraphQLNonNull(GraphQLString)
     }
   }
