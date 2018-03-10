@@ -19,11 +19,10 @@ export default {
       type: new GraphQLNonNull(GraphQLID)
     }
   },
-  resolve(root, params, options) {
-    const projection = getProjection(options.fieldASTs[0]);
-    console.log(projection);
+  resolve(obj, args, context, ast) {
+    const projection = getProjection(ast.operation.selectionSet.selections[0]);
     return BlogPostModel
-      .findById(params.id)
+      .findById(args.id)
       .populate({
         path: 'userId'
       })
