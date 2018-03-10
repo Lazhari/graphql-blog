@@ -9,13 +9,13 @@ import BlogPostModel from '../../../models/blog-post';
 export default {
     type: new GraphQLList(blogPostType),
     args: {},
-    resolve (root, params, options) {
-        const projection = getProjection(options.fieldASTs[0]);
+    resolve(obj, args, context, ast) {
+        const projection = getProjection(ast.operation.selectionSet.selections[0]);
 
         return BlogPostModel
-        .find()
-        .populate({path: 'userId'})
-        .select(projection)
-        .exec();
+            .find()
+            .populate({ path: 'userId' })
+            .select(projection)
+            .exec();
     }
 };
