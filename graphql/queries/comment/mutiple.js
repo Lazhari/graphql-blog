@@ -16,12 +16,12 @@ export default {
       type: new GraphQLNonNull(GraphQLID)
     }
   },
-  resolve (root, params, options) {
-    const projection = getProjection(options.fieldASTs[0]);
+  resolve(obj, args, context, ast) {
+    const projection = getProjection(ast.operation.selectionSet.selections[0]);
 
     return CommentModel
       .find({
-        postId: params.postId
+        postId: args.postId
       })
       .select(projection)
       .exec();
