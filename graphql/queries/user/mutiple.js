@@ -9,8 +9,8 @@ import UserModel from '../../../models/user';
 export default {
     type: new GraphQLList(userType),
     args: {},
-    resolve(root, params, options) {
-        const projection = getProjection(options.fieldASTs[0]);
+    resolve(obj, args, context, ast) {
+        const projection = getProjection(ast.operation.selectionSet.selections[0]);
 
         return UserModel
             .aggregate([{

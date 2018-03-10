@@ -3,7 +3,7 @@ import {
     GraphQLID,
     GraphQLNonNull
 } from 'graphql';
-import {Types} from 'mongoose';
+import { Types } from 'mongoose';
 
 import UserType from '../../types/user';
 import getProjection from '../../get-projection';
@@ -17,12 +17,12 @@ export default {
             type: new GraphQLNonNull(GraphQLID)
         }
     },
-    resolve (root, params, options) {
-        const projection = getProjection(options.fieldASTs[0]);
+    resolve(obj, args, context, ast) {
+        const projection = getProjection(ast.operation.selectionSet.selections[0]);
 
         return UserModel
-        .findById(params.id)
-        .select(projection)
-        .exec();
+            .findById(args.id)
+            .select(projection)
+            .exec();
     }
 };
