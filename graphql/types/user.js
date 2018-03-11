@@ -2,28 +2,26 @@ import {
     GraphQLObjectType,
     GraphQLNonNull,
     GraphQLString,
-    GraphQLID
+    GraphQLID,
 } from 'graphql';
-import {
-    GraphQLEmail
-} from 'graphql-custom-types';
+import { GraphQLEmail } from 'graphql-custom-types';
 export default new GraphQLObjectType({
     name: 'User',
     fields: {
         _id: {
-            type: new GraphQLNonNull(GraphQLID)
+            type: new GraphQLNonNull(GraphQLID),
         },
         email: {
-            type: GraphQLEmail
+            type: GraphQLEmail,
         },
         firstName: {
-            type: GraphQLString
+            type: GraphQLString,
         },
         lastName: {
-            type: GraphQLString
+            type: GraphQLString,
         },
         summary: {
-            type: GraphQLString
-        }
-    }
+            type: GraphQLString,
+        },
+    },
 });

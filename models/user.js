@@ -4,17 +4,17 @@ var attendeeSchema = new mongoose.Schema({
     email: {
         type: String,
         unique: true,
-        required: true
+        required: true,
     },
     firstName: {
-        type: String
+        type: String,
     },
     lastName: {
-        type: String
+        type: String,
     },
     summary: {
-        type: String
-    }
+        type: String,
+    },
 });
 
 export default mongoose.model('User', attendeeSchema);

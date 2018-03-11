@@ -2,29 +2,28 @@ import {
     GraphQLObjectType,
     GraphQLNonNull,
     GraphQLString,
-    GraphQLID
+    GraphQLID,
 } from 'graphql';
 
 import UserType from './user';
-import CommentType from './comment';
 
 export default new GraphQLObjectType({
     name: 'BlogPost',
     fields: {
         _id: {
-            type: new GraphQLNonNull(GraphQLID)
+            type: new GraphQLNonNull(GraphQLID),
         },
         title: {
-            type: GraphQLString
+            type: GraphQLString,
         },
         content: {
-            type: GraphQLString
+            type: GraphQLString,
         },
         description: {
-            type: GraphQLString
+            type: GraphQLString,
         },
         userId: {
-            type: UserType
-        }
-    }
+            type: UserType,
+        },
+    },
 });

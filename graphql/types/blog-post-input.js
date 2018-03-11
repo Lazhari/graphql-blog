@@ -2,23 +2,23 @@ import {
     GraphQLInputObjectType,
     GraphQLString,
     GraphQLID,
-    GraphQLNonNull
+    GraphQLNonNull,
 } from 'graphql';
 
 export default new GraphQLInputObjectType({
     name: 'BlogPostInput',
     fields: {
         title: {
-            type: GraphQLString
+            type: GraphQLString,
         },
         description: {
-            type: GraphQLString
+            type: GraphQLString,
         },
         content: {
-            type: GraphQLString
+            type: GraphQLString,
         },
         userId: {
-            type: new GraphQLNonNull(GraphQLID)
-        }
-    }
+            type: new GraphQLNonNull(GraphQLID),
+        },
+    },
 });
