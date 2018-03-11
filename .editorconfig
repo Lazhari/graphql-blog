@@ -1,0 +1,23 @@
+# What is this file?
+#   see http://editorconfig.org/
+
+# What formatting rules are we trying to follow?
+#   see https://github.com/nodejs/node/tree/master/doc/STYLE_GUIDE.md
+
+
+# don't look for more .editorconfig files in parent directories
+root = true
+
+
+# default formatting for all file types
+[*]
+end_of_line = lf
+insert_final_newline = true
+charset = utf-8
+
+
+# formatting for markdown files
+[*.{md,markdown}]
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
