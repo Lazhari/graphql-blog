@@ -1,0 +1,4485 @@
+{
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/models/user.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/models/user.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 16 },
+                "end": { "line": 9, "column": 35 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 17 },
+                "end": { "line": 11, "column": 50 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 21 },
+                "end": { "line": 28, "column": 2 }
+            },
+            "5": {
+                "start": { "line": 30, "column": 0 },
+                "end": { "line": 30, "column": 73 }
+            },
+            "6": {
+                "start": { "line": 31, "column": 0 },
+                "end": { "line": 31, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1 },
+        "f": { "0": 1 },
+        "b": { "0": [0, 1], "1": [1, 1] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "050da77ebcb81a987ad5efcd467c5c0a69061e92",
+        "contentHash": "37fc06e2a17dbd977b729d7e725b528b_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/app.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/app.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 16 },
+                "end": { "line": 11, "column": 48 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 22 },
+                "end": { "line": 13, "column": 48 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 23 },
+                "end": { "line": 15, "column": 62 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 16 },
+                "end": { "line": 17, "column": 35 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 17 },
+                "end": { "line": 19, "column": 50 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 15 },
+                "end": { "line": 21, "column": 35 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 16 },
+                "end": { "line": 23, "column": 48 }
+            },
+            "10": {
+                "start": { "line": 25, "column": 10 },
+                "end": { "line": 25, "column": 37 }
+            },
+            "11": {
+                "start": { "line": 28, "column": 0 },
+                "end": { "line": 34, "column": 4 }
+            },
+            "12": {
+                "start": { "line": 29, "column": 4 },
+                "end": { "line": 33, "column": 6 }
+            },
+            "13": {
+                "start": { "line": 37, "column": 0 },
+                "end": { "line": 37, "column": 61 }
+            },
+            "14": {
+                "start": { "line": 40, "column": 13 },
+                "end": { "line": 42, "column": 2 }
+            },
+            "15": {
+                "start": { "line": 41, "column": 4 },
+                "end": { "line": 41, "column": 60 }
+            },
+            "16": {
+                "start": { "line": 44, "column": 0 },
+                "end": { "line": 44, "column": 28 }
+            },
+            "17": {
+                "start": { "line": 45, "column": 0 },
+                "end": { "line": 45, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "(anonymous_1)",
+                "decl": {
+                    "start": { "line": 28, "column": 53 },
+                    "end": { "line": 28, "column": 54 }
+                },
+                "loc": {
+                    "start": { "line": 28, "column": 68 },
+                    "end": { "line": 34, "column": 1 }
+                },
+                "line": 28
+            },
+            "2": {
+                "name": "(anonymous_2)",
+                "decl": {
+                    "start": { "line": 40, "column": 30 },
+                    "end": { "line": 40, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 40, "column": 42 },
+                    "end": { "line": 42, "column": 1 }
+                },
+                "line": 40
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 4,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "17": 1
+        },
+        "f": { "0": 4, "1": 1, "2": 1 },
+        "b": { "0": [0, 4], "1": [4, 4] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "acfba7234d747d3135e0d4e0db3a4e8901c9fce5",
+        "contentHash": "a9c21dd10aaa47184c826005fa5abb17_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/index.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/index.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 17 },
+                "end": { "line": 11, "column": 39 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 18 },
+                "end": { "line": 13, "column": 52 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 15 },
+                "end": { "line": 15, "column": 35 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 16 },
+                "end": { "line": 17, "column": 48 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 0 },
+                "end": { "line": 28, "column": 3 }
+            },
+            "8": {
+                "start": { "line": 29, "column": 0 },
+                "end": { "line": 29, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1
+        },
+        "f": { "0": 2 },
+        "b": { "0": [0, 2], "1": [2, 2] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "73f33726511ab4f4f87739de740c82f4194cc630",
+        "contentHash": "61d30b84dbe423734a6081193f9426da_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/index.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/index.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 15 },
+                "end": { "line": 7, "column": 256 }
+            },
+            "2": {
+                "start": { "line": 7, "column": 52 },
+                "end": { "line": 7, "column": 239 }
+            },
+            "3": {
+                "start": { "line": 7, "column": 110 },
+                "end": { "line": 7, "column": 122 }
+            },
+            "4": {
+                "start": { "line": 7, "column": 124 },
+                "end": { "line": 7, "column": 237 }
+            },
+            "5": {
+                "start": { "line": 7, "column": 150 },
+                "end": { "line": 7, "column": 235 }
+            },
+            "6": {
+                "start": { "line": 7, "column": 207 },
+                "end": { "line": 7, "column": 233 }
+            },
+            "7": {
+                "start": { "line": 7, "column": 240 },
+                "end": { "line": 7, "column": 254 }
+            },
+            "8": {
+                "start": { "line": 9, "column": 39 },
+                "end": { "line": 9, "column": 95 }
+            },
+            "9": {
+                "start": { "line": 11, "column": 16 },
+                "end": { "line": 11, "column": 38 }
+            },
+            "10": {
+                "start": { "line": 13, "column": 17 },
+                "end": { "line": 13, "column": 50 }
+            },
+            "11": {
+                "start": { "line": 15, "column": 15 },
+                "end": { "line": 15, "column": 35 }
+            },
+            "12": {
+                "start": { "line": 17, "column": 16 },
+                "end": { "line": 17, "column": 48 }
+            },
+            "13": {
+                "start": { "line": 19, "column": 12 },
+                "end": { "line": 19, "column": 29 }
+            },
+            "14": {
+                "start": { "line": 21, "column": 13 },
+                "end": { "line": 21, "column": 42 }
+            },
+            "15": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 23, "column": 98 }
+            },
+            "16": {
+                "start": { "line": 24, "column": 0 },
+                "end": { "line": 24, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "(anonymous_0)",
+                "decl": {
+                    "start": { "line": 7, "column": 32 },
+                    "end": { "line": 7, "column": 33 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 50 },
+                    "end": { "line": 7, "column": 256 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 9, "column": 9 },
+                    "end": { "line": 9, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 9, "column": 37 },
+                    "end": { "line": 9, "column": 97 }
+                },
+                "line": 9
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 15 },
+                    "end": { "line": 7, "column": 256 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 15 },
+                        "end": { "line": 7, "column": 28 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 32 },
+                        "end": { "line": 7, "column": 256 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 150 },
+                    "end": { "line": 7, "column": 235 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 150 },
+                        "end": { "line": 7, "column": 235 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 150 },
+                        "end": { "line": 7, "column": 235 }
+                    }
+                ],
+                "line": 7
+            },
+            "2": {
+                "loc": {
+                    "start": { "line": 9, "column": 46 },
+                    "end": { "line": 9, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 9, "column": 70 },
+                        "end": { "line": 9, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 9, "column": 76 },
+                        "end": { "line": 9, "column": 94 }
+                    }
+                ],
+                "line": 9
+            },
+            "3": {
+                "loc": {
+                    "start": { "line": 9, "column": 46 },
+                    "end": { "line": 9, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 9, "column": 46 },
+                        "end": { "line": 9, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 9, "column": 53 },
+                        "end": { "line": 9, "column": 67 }
+                    }
+                ],
+                "line": 9
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 3,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1
+        },
+        "f": { "0": 0, "1": 3 },
+        "b": { "0": [1, 0], "1": [0, 0], "2": [0, 3], "3": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "dce18cf3efb4649889172ec40590bf31bc513d93",
+        "contentHash": "106d060de0a39b13b015e9bc6112ef23_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/blog-post/index.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/blog-post/index.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 11 },
+                "end": { "line": 9, "column": 27 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 12 },
+                "end": { "line": 11, "column": 40 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 17 },
+                "end": { "line": 13, "column": 40 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 18 },
+                "end": { "line": 15, "column": 52 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 14 },
+                "end": { "line": 17, "column": 33 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 15 },
+                "end": { "line": 19, "column": 46 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 0 },
+                "end": { "line": 25, "column": 2 }
+            },
+            "9": {
+                "start": { "line": 26, "column": 0 },
+                "end": { "line": 26, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+        },
+        "f": { "0": 3 },
+        "b": { "0": [0, 3], "1": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "3c9750753b8405fd23fddcc2eee2e60465cfecf6",
+        "contentHash": "b04e2d709966faf6d0c9f1f409579938_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/blog-post/add.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/blog-post/add.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 26 },
+                "end": { "line": 11, "column": 64 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 27 },
+                "end": { "line": 13, "column": 70 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 22 },
+                "end": { "line": 15, "column": 58 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 23 },
+                "end": { "line": 17, "column": 62 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 0 },
+                "end": { "line": 55, "column": 2 }
+            },
+            "8": {
+                "start": { "line": 29, "column": 4 },
+                "end": { "line": 53, "column": 19 }
+            },
+            "9": {
+                "start": { "line": 30, "column": 6 },
+                "end": { "line": 52, "column": 7 }
+            },
+            "10": {
+                "start": { "line": 30, "column": 16 },
+                "end": { "line": 52, "column": 7 }
+            },
+            "11": {
+                "start": { "line": 32, "column": 10 },
+                "end": { "line": 32, "column": 71 }
+            },
+            "12": {
+                "start": { "line": 33, "column": 10 },
+                "end": { "line": 33, "column": 31 }
+            },
+            "13": {
+                "start": { "line": 34, "column": 10 },
+                "end": { "line": 34, "column": 64 }
+            },
+            "14": {
+                "start": { "line": 37, "column": 10 },
+                "end": { "line": 37, "column": 41 }
+            },
+            "15": {
+                "start": { "line": 39, "column": 10 },
+                "end": { "line": 42, "column": 11 }
+            },
+            "16": {
+                "start": { "line": 40, "column": 12 },
+                "end": { "line": 40, "column": 33 }
+            },
+            "17": {
+                "start": { "line": 41, "column": 12 },
+                "end": { "line": 41, "column": 18 }
+            },
+            "18": {
+                "start": { "line": 44, "column": 10 },
+                "end": { "line": 44, "column": 56 }
+            },
+            "19": {
+                "start": { "line": 47, "column": 10 },
+                "end": { "line": 47, "column": 52 }
+            },
+            "20": {
+                "start": { "line": 51, "column": 10 },
+                "end": { "line": 51, "column": 36 }
+            },
+            "21": {
+                "start": { "line": 56, "column": 0 },
+                "end": { "line": 56, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 27, "column": 20 },
+                    "end": { "line": 27, "column": 27 }
+                },
+                "loc": {
+                    "start": { "line": 27, "column": 51 },
+                    "end": { "line": 54, "column": 3 }
+                },
+                "line": 27
+            },
+            "2": {
+                "name": "resolve$",
+                "decl": {
+                    "start": { "line": 29, "column": 45 },
+                    "end": { "line": 29, "column": 53 }
+                },
+                "loc": {
+                    "start": { "line": 29, "column": 67 },
+                    "end": { "line": 53, "column": 5 }
+                },
+                "line": 29
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            },
+            "2": {
+                "loc": {
+                    "start": { "line": 30, "column": 16 },
+                    "end": { "line": 52, "column": 7 }
+                },
+                "type": "switch",
+                "locations": [
+                    {
+                        "start": { "line": 31, "column": 8 },
+                        "end": { "line": 34, "column": 64 }
+                    },
+                    {
+                        "start": { "line": 36, "column": 8 },
+                        "end": { "line": 44, "column": 56 }
+                    },
+                    {
+                        "start": { "line": 46, "column": 8 },
+                        "end": { "line": 47, "column": 52 }
+                    },
+                    {
+                        "start": { "line": 49, "column": 8 },
+                        "end": { "line": 49, "column": 15 }
+                    },
+                    {
+                        "start": { "line": 50, "column": 8 },
+                        "end": { "line": 51, "column": 36 }
+                    }
+                ],
+                "line": 30
+            },
+            "3": {
+                "loc": {
+                    "start": { "line": 39, "column": 10 },
+                    "end": { "line": 42, "column": 11 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 39, "column": 10 },
+                        "end": { "line": 42, "column": 11 }
+                    },
+                    {
+                        "start": { "line": 39, "column": 10 },
+                        "end": { "line": 42, "column": 11 }
+                    }
+                ],
+                "line": 39
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 1
+        },
+        "f": { "0": 2, "1": 0, "2": 0 },
+        "b": { "0": [0, 2], "1": [2, 2], "2": [0, 0, 0, 0, 0], "3": [0, 0] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "d895e2f2a9fca611ff7a10d21d4f5c6aa0ea1aab",
+        "contentHash": "c4837ff85b56846b27aeca0098459be3_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/blog-post-input.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/blog-post-input.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 15 },
+                "end": { "line": 7, "column": 33 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 0 },
+                "end": { "line": 25, "column": 3 }
+            },
+            "3": {
+                "start": { "line": 26, "column": 0 },
+                "end": { "line": 26, "column": 36 }
+            }
+        },
+        "fnMap": {},
+        "branchMap": {},
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1 },
+        "f": {},
+        "b": {},
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "f1c50d233effdec529d3e6d537d0b497fccfde70",
+        "contentHash": "4201e3afc864a36b17504bae8f7aff0e_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/models/blog-post.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/models/blog-post.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 16 },
+                "end": { "line": 9, "column": 35 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 17 },
+                "end": { "line": 11, "column": 50 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 21 },
+                "end": { "line": 30, "column": 2 }
+            },
+            "5": {
+                "start": { "line": 32, "column": 0 },
+                "end": { "line": 32, "column": 77 }
+            },
+            "6": {
+                "start": { "line": 33, "column": 0 },
+                "end": { "line": 33, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1 },
+        "f": { "0": 1 },
+        "b": { "0": [0, 1], "1": [1, 1] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "e092daf6b9fde685147ad9f97652dc70930bdcb0",
+        "contentHash": "da3abfade8bef187a5e5b57eeafcd1ad_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/blog-post/remove-all.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/blog-post/remove-all.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 22 },
+                "end": { "line": 11, "column": 58 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 23 },
+                "end": { "line": 13, "column": 62 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 0 },
+                "end": { "line": 20, "column": 2 }
+            },
+            "6": {
+                "start": { "line": 18, "column": 4 },
+                "end": { "line": 18, "column": 57 }
+            },
+            "7": {
+                "start": { "line": 21, "column": 0 },
+                "end": { "line": 21, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 17, "column": 20 },
+                    "end": { "line": 17, "column": 27 }
+                },
+                "loc": {
+                    "start": { "line": 17, "column": 51 },
+                    "end": { "line": 19, "column": 3 }
+                },
+                "line": 17
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 0, "7": 1 },
+        "f": { "0": 1, "1": 0 },
+        "b": { "0": [0, 1], "1": [1, 1] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "22bd636f18f900bdd7b66b05ee68d877d1ca1684",
+        "contentHash": "82c37c2b8fa7605187bed1bdff92f198_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/blog-post/remove.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/blog-post/remove.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 21 },
+                "end": { "line": 11, "column": 53 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 22 },
+                "end": { "line": 13, "column": 60 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 21 },
+                "end": { "line": 15, "column": 52 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 22 },
+                "end": { "line": 17, "column": 60 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 22 },
+                "end": { "line": 19, "column": 58 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 23 },
+                "end": { "line": 21, "column": 62 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 61, "column": 2 }
+            },
+            "10": {
+                "start": { "line": 33, "column": 4 },
+                "end": { "line": 59, "column": 19 }
+            },
+            "11": {
+                "start": { "line": 34, "column": 6 },
+                "end": { "line": 58, "column": 7 }
+            },
+            "12": {
+                "start": { "line": 34, "column": 16 },
+                "end": { "line": 58, "column": 7 }
+            },
+            "13": {
+                "start": { "line": 36, "column": 10 },
+                "end": { "line": 36, "column": 77 }
+            },
+            "14": {
+                "start": { "line": 37, "column": 10 },
+                "end": { "line": 37, "column": 31 }
+            },
+            "15": {
+                "start": { "line": 38, "column": 10 },
+                "end": { "line": 40, "column": 21 }
+            },
+            "16": {
+                "start": { "line": 43, "column": 10 },
+                "end": { "line": 43, "column": 45 }
+            },
+            "17": {
+                "start": { "line": 45, "column": 10 },
+                "end": { "line": 48, "column": 11 }
+            },
+            "18": {
+                "start": { "line": 46, "column": 12 },
+                "end": { "line": 46, "column": 33 }
+            },
+            "19": {
+                "start": { "line": 47, "column": 12 },
+                "end": { "line": 47, "column": 18 }
+            },
+            "20": {
+                "start": { "line": 50, "column": 10 },
+                "end": { "line": 50, "column": 54 }
+            },
+            "21": {
+                "start": { "line": 53, "column": 10 },
+                "end": { "line": 53, "column": 63 }
+            },
+            "22": {
+                "start": { "line": 57, "column": 10 },
+                "end": { "line": 57, "column": 36 }
+            },
+            "23": {
+                "start": { "line": 62, "column": 0 },
+                "end": { "line": 62, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 31, "column": 20 },
+                    "end": { "line": 31, "column": 27 }
+                },
+                "loc": {
+                    "start": { "line": 31, "column": 51 },
+                    "end": { "line": 60, "column": 3 }
+                },
+                "line": 31
+            },
+            "2": {
+                "name": "resolve$",
+                "decl": {
+                    "start": { "line": 33, "column": 45 },
+                    "end": { "line": 33, "column": 53 }
+                },
+                "loc": {
+                    "start": { "line": 33, "column": 67 },
+                    "end": { "line": 59, "column": 5 }
+                },
+                "line": 33
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            },
+            "2": {
+                "loc": {
+                    "start": { "line": 34, "column": 16 },
+                    "end": { "line": 58, "column": 7 }
+                },
+                "type": "switch",
+                "locations": [
+                    {
+                        "start": { "line": 35, "column": 8 },
+                        "end": { "line": 40, "column": 21 }
+                    },
+                    {
+                        "start": { "line": 42, "column": 8 },
+                        "end": { "line": 50, "column": 54 }
+                    },
+                    {
+                        "start": { "line": 52, "column": 8 },
+                        "end": { "line": 53, "column": 63 }
+                    },
+                    {
+                        "start": { "line": 55, "column": 8 },
+                        "end": { "line": 55, "column": 15 }
+                    },
+                    {
+                        "start": { "line": 56, "column": 8 },
+                        "end": { "line": 57, "column": 36 }
+                    }
+                ],
+                "line": 34
+            },
+            "3": {
+                "loc": {
+                    "start": { "line": 45, "column": 10 },
+                    "end": { "line": 48, "column": 11 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 45, "column": 10 },
+                        "end": { "line": 48, "column": 11 }
+                    },
+                    {
+                        "start": { "line": 45, "column": 10 },
+                        "end": { "line": 48, "column": 11 }
+                    }
+                ],
+                "line": 45
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 1
+        },
+        "f": { "0": 3, "1": 0, "2": 0 },
+        "b": { "0": [0, 3], "1": [3, 3], "2": [0, 0, 0, 0, 0], "3": [0, 0] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "5029fc473f6e152184be00b9b9bb2184dabd836f",
+        "contentHash": "0d654fea461a331ee98de7295782be2b_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/blog-post.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/blog-post.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 12 },
+                "end": { "line": 11, "column": 29 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 13 },
+                "end": { "line": 13, "column": 42 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 0 },
+                "end": { "line": 34, "column": 3 }
+            },
+            "6": {
+                "start": { "line": 35, "column": 0 },
+                "end": { "line": 35, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1 },
+        "f": { "0": 1 },
+        "b": { "0": [0, 1], "1": [1, 1] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "9ca7e5ddefb000780630d9dfba611ab422b17827",
+        "contentHash": "9e81bca112d3ac150867c7fce2e7472c_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/user.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/user.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 15 },
+                "end": { "line": 7, "column": 33 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 26 },
+                "end": { "line": 9, "column": 57 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 0 },
+                "end": { "line": 30, "column": 3 }
+            },
+            "4": {
+                "start": { "line": 31, "column": 0 },
+                "end": { "line": 31, "column": 36 }
+            }
+        },
+        "fnMap": {},
+        "branchMap": {},
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1 },
+        "f": {},
+        "b": {},
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "1eb4338a11db6a5286c56b51694c9b9ee50724e7",
+        "contentHash": "dd6c3cbf0227b86b2e102554c5eaec76_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/get-projection.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/get-projection.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 6, "column": 0 },
+                "end": { "line": 6, "column": 35 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 2 },
+                "end": { "line": 12, "column": 9 }
+            },
+            "3": {
+                "start": { "line": 10, "column": 4 },
+                "end": { "line": 10, "column": 42 }
+            },
+            "4": {
+                "start": { "line": 11, "column": 4 },
+                "end": { "line": 11, "column": 23 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 0 },
+                "end": { "line": 15, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "getProjection",
+                "decl": {
+                    "start": { "line": 8, "column": 9 },
+                    "end": { "line": 8, "column": 22 }
+                },
+                "loc": {
+                    "start": { "line": 8, "column": 34 },
+                    "end": { "line": 13, "column": 1 }
+                },
+                "line": 8
+            },
+            "1": {
+                "name": "(anonymous_1)",
+                "decl": {
+                    "start": { "line": 9, "column": 50 },
+                    "end": { "line": 9, "column": 51 }
+                },
+                "loc": {
+                    "start": { "line": 9, "column": 84 },
+                    "end": { "line": 12, "column": 3 }
+                },
+                "line": 9
+            }
+        },
+        "branchMap": {},
+        "s": { "0": 1, "1": 1, "2": 1, "3": 3, "4": 3, "5": 1 },
+        "f": { "0": 1, "1": 3 },
+        "b": {},
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "ea26c73350113eece5368c4164c41d6c9e6f4c8f",
+        "contentHash": "325c95256cf39908b5d7bbb17e597b68_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/comment/index.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/comment/index.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 11 },
+                "end": { "line": 9, "column": 27 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 12 },
+                "end": { "line": 11, "column": 40 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 17 },
+                "end": { "line": 13, "column": 40 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 18 },
+                "end": { "line": 15, "column": 52 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 14 },
+                "end": { "line": 17, "column": 33 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 15 },
+                "end": { "line": 19, "column": 46 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 0 },
+                "end": { "line": 25, "column": 2 }
+            },
+            "9": {
+                "start": { "line": 26, "column": 0 },
+                "end": { "line": 26, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1
+        },
+        "f": { "0": 3 },
+        "b": { "0": [0, 3], "1": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "797203133234fc441b919319ac2eb4adec2a6011",
+        "contentHash": "562e1a791bee8f5fc5287c43a44c3ad0_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/comment/add.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/comment/add.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 25 },
+                "end": { "line": 11, "column": 61 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 26 },
+                "end": { "line": 13, "column": 68 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 21 },
+                "end": { "line": 15, "column": 55 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 22 },
+                "end": { "line": 17, "column": 60 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 0 },
+                "end": { "line": 55, "column": 2 }
+            },
+            "8": {
+                "start": { "line": 29, "column": 4 },
+                "end": { "line": 53, "column": 19 }
+            },
+            "9": {
+                "start": { "line": 30, "column": 6 },
+                "end": { "line": 52, "column": 7 }
+            },
+            "10": {
+                "start": { "line": 30, "column": 16 },
+                "end": { "line": 52, "column": 7 }
+            },
+            "11": {
+                "start": { "line": 32, "column": 10 },
+                "end": { "line": 32, "column": 69 }
+            },
+            "12": {
+                "start": { "line": 33, "column": 10 },
+                "end": { "line": 33, "column": 31 }
+            },
+            "13": {
+                "start": { "line": 34, "column": 10 },
+                "end": { "line": 34, "column": 63 }
+            },
+            "14": {
+                "start": { "line": 37, "column": 10 },
+                "end": { "line": 37, "column": 40 }
+            },
+            "15": {
+                "start": { "line": 39, "column": 10 },
+                "end": { "line": 42, "column": 11 }
+            },
+            "16": {
+                "start": { "line": 40, "column": 12 },
+                "end": { "line": 40, "column": 33 }
+            },
+            "17": {
+                "start": { "line": 41, "column": 12 },
+                "end": { "line": 41, "column": 18 }
+            },
+            "18": {
+                "start": { "line": 44, "column": 10 },
+                "end": { "line": 44, "column": 54 }
+            },
+            "19": {
+                "start": { "line": 47, "column": 10 },
+                "end": { "line": 47, "column": 52 }
+            },
+            "20": {
+                "start": { "line": 51, "column": 10 },
+                "end": { "line": 51, "column": 36 }
+            },
+            "21": {
+                "start": { "line": 56, "column": 0 },
+                "end": { "line": 56, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 27, "column": 20 },
+                    "end": { "line": 27, "column": 27 }
+                },
+                "loc": {
+                    "start": { "line": 27, "column": 51 },
+                    "end": { "line": 54, "column": 3 }
+                },
+                "line": 27
+            },
+            "2": {
+                "name": "resolve$",
+                "decl": {
+                    "start": { "line": 29, "column": 45 },
+                    "end": { "line": 29, "column": 53 }
+                },
+                "loc": {
+                    "start": { "line": 29, "column": 67 },
+                    "end": { "line": 53, "column": 5 }
+                },
+                "line": 29
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            },
+            "2": {
+                "loc": {
+                    "start": { "line": 30, "column": 16 },
+                    "end": { "line": 52, "column": 7 }
+                },
+                "type": "switch",
+                "locations": [
+                    {
+                        "start": { "line": 31, "column": 8 },
+                        "end": { "line": 34, "column": 63 }
+                    },
+                    {
+                        "start": { "line": 36, "column": 8 },
+                        "end": { "line": 44, "column": 54 }
+                    },
+                    {
+                        "start": { "line": 46, "column": 8 },
+                        "end": { "line": 47, "column": 52 }
+                    },
+                    {
+                        "start": { "line": 49, "column": 8 },
+                        "end": { "line": 49, "column": 15 }
+                    },
+                    {
+                        "start": { "line": 50, "column": 8 },
+                        "end": { "line": 51, "column": 36 }
+                    }
+                ],
+                "line": 30
+            },
+            "3": {
+                "loc": {
+                    "start": { "line": 39, "column": 10 },
+                    "end": { "line": 42, "column": 11 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 39, "column": 10 },
+                        "end": { "line": 42, "column": 11 }
+                    },
+                    {
+                        "start": { "line": 39, "column": 10 },
+                        "end": { "line": 42, "column": 11 }
+                    }
+                ],
+                "line": 39
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 1
+        },
+        "f": { "0": 2, "1": 0, "2": 0 },
+        "b": { "0": [0, 2], "1": [2, 2], "2": [0, 0, 0, 0, 0], "3": [0, 0] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "b99c0e5718fe88e0e0530a81f0b38c4a46345398",
+        "contentHash": "acf0ca969e80e98ef321570669b3ef01_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/comment-input.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/comment-input.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 15 },
+                "end": { "line": 7, "column": 33 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 0 },
+                "end": { "line": 22, "column": 3 }
+            },
+            "3": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 23, "column": 36 }
+            }
+        },
+        "fnMap": {},
+        "branchMap": {},
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1 },
+        "f": {},
+        "b": {},
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "724a9a6c6a98a8409554e035880f53a1eebd53b8",
+        "contentHash": "24533866d31c4bae887dce73e50e7789_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/models/comment.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/models/comment.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 16 },
+                "end": { "line": 9, "column": 35 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 17 },
+                "end": { "line": 11, "column": 50 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 20 },
+                "end": { "line": 27, "column": 2 }
+            },
+            "5": {
+                "start": { "line": 29, "column": 0 },
+                "end": { "line": 29, "column": 75 }
+            },
+            "6": {
+                "start": { "line": 30, "column": 0 },
+                "end": { "line": 30, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1 },
+        "f": { "0": 1 },
+        "b": { "0": [0, 1], "1": [1, 1] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "213dd82ed34eb4bd29577337ecae28494f5833c1",
+        "contentHash": "00f1de4adef61c50f3cf70a5783ef76f_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/comment/remove-all.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/comment/remove-all.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 21 },
+                "end": { "line": 11, "column": 55 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 22 },
+                "end": { "line": 13, "column": 60 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 0 },
+                "end": { "line": 20, "column": 2 }
+            },
+            "6": {
+                "start": { "line": 18, "column": 4 },
+                "end": { "line": 18, "column": 54 }
+            },
+            "7": {
+                "start": { "line": 21, "column": 0 },
+                "end": { "line": 21, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 17, "column": 20 },
+                    "end": { "line": 17, "column": 27 }
+                },
+                "loc": {
+                    "start": { "line": 17, "column": 51 },
+                    "end": { "line": 19, "column": 3 }
+                },
+                "line": 17
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1, "5": 1, "6": 0, "7": 1 },
+        "f": { "0": 1, "1": 0 },
+        "b": { "0": [0, 1], "1": [1, 1] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "b664523d0bbbeb0fff56a79310c6a24e60a05ee0",
+        "contentHash": "67594867a9c772668261d7cd2adc7ac6_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/comment/remove.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/comment/remove.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 20 },
+                "end": { "line": 11, "column": 50 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 21 },
+                "end": { "line": 13, "column": 58 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 21 },
+                "end": { "line": 15, "column": 52 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 22 },
+                "end": { "line": 17, "column": 60 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 21 },
+                "end": { "line": 19, "column": 55 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 22 },
+                "end": { "line": 21, "column": 60 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 61, "column": 2 }
+            },
+            "10": {
+                "start": { "line": 33, "column": 4 },
+                "end": { "line": 59, "column": 19 }
+            },
+            "11": {
+                "start": { "line": 34, "column": 6 },
+                "end": { "line": 58, "column": 7 }
+            },
+            "12": {
+                "start": { "line": 34, "column": 16 },
+                "end": { "line": 58, "column": 7 }
+            },
+            "13": {
+                "start": { "line": 36, "column": 10 },
+                "end": { "line": 36, "column": 77 }
+            },
+            "14": {
+                "start": { "line": 37, "column": 10 },
+                "end": { "line": 37, "column": 31 }
+            },
+            "15": {
+                "start": { "line": 38, "column": 10 },
+                "end": { "line": 40, "column": 21 }
+            },
+            "16": {
+                "start": { "line": 43, "column": 10 },
+                "end": { "line": 43, "column": 44 }
+            },
+            "17": {
+                "start": { "line": 45, "column": 10 },
+                "end": { "line": 48, "column": 11 }
+            },
+            "18": {
+                "start": { "line": 46, "column": 12 },
+                "end": { "line": 46, "column": 33 }
+            },
+            "19": {
+                "start": { "line": 47, "column": 12 },
+                "end": { "line": 47, "column": 18 }
+            },
+            "20": {
+                "start": { "line": 50, "column": 10 },
+                "end": { "line": 50, "column": 54 }
+            },
+            "21": {
+                "start": { "line": 53, "column": 10 },
+                "end": { "line": 53, "column": 62 }
+            },
+            "22": {
+                "start": { "line": 57, "column": 10 },
+                "end": { "line": 57, "column": 36 }
+            },
+            "23": {
+                "start": { "line": 62, "column": 0 },
+                "end": { "line": 62, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 31, "column": 20 },
+                    "end": { "line": 31, "column": 27 }
+                },
+                "loc": {
+                    "start": { "line": 31, "column": 51 },
+                    "end": { "line": 60, "column": 3 }
+                },
+                "line": 31
+            },
+            "2": {
+                "name": "resolve$",
+                "decl": {
+                    "start": { "line": 33, "column": 45 },
+                    "end": { "line": 33, "column": 53 }
+                },
+                "loc": {
+                    "start": { "line": 33, "column": 67 },
+                    "end": { "line": 59, "column": 5 }
+                },
+                "line": 33
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            },
+            "2": {
+                "loc": {
+                    "start": { "line": 34, "column": 16 },
+                    "end": { "line": 58, "column": 7 }
+                },
+                "type": "switch",
+                "locations": [
+                    {
+                        "start": { "line": 35, "column": 8 },
+                        "end": { "line": 40, "column": 21 }
+                    },
+                    {
+                        "start": { "line": 42, "column": 8 },
+                        "end": { "line": 50, "column": 54 }
+                    },
+                    {
+                        "start": { "line": 52, "column": 8 },
+                        "end": { "line": 53, "column": 62 }
+                    },
+                    {
+                        "start": { "line": 55, "column": 8 },
+                        "end": { "line": 55, "column": 15 }
+                    },
+                    {
+                        "start": { "line": 56, "column": 8 },
+                        "end": { "line": 57, "column": 36 }
+                    }
+                ],
+                "line": 34
+            },
+            "3": {
+                "loc": {
+                    "start": { "line": 45, "column": 10 },
+                    "end": { "line": 48, "column": 11 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 45, "column": 10 },
+                        "end": { "line": 48, "column": 11 }
+                    },
+                    {
+                        "start": { "line": 45, "column": 10 },
+                        "end": { "line": 48, "column": 11 }
+                    }
+                ],
+                "line": 45
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 1
+        },
+        "f": { "0": 3, "1": 0, "2": 0 },
+        "b": { "0": [0, 3], "1": [3, 3], "2": [0, 0, 0, 0, 0], "3": [0, 0] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "c59e5fe61425242536f7514789ce09de5625db54",
+        "contentHash": "613ed995679082b5fe972c1cd2f47fa8_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/comment.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/comment.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 15 },
+                "end": { "line": 7, "column": 33 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 0 },
+                "end": { "line": 22, "column": 3 }
+            },
+            "3": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 23, "column": 36 }
+            }
+        },
+        "fnMap": {},
+        "branchMap": {},
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1 },
+        "f": {},
+        "b": {},
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "29dfe547e240bbedaee0374206fa5a974e591731",
+        "contentHash": "f810d10191b8579753bfefc6a988d68c_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/user/index.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/user/index.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 11 },
+                "end": { "line": 9, "column": 27 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 12 },
+                "end": { "line": 11, "column": 40 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 14 },
+                "end": { "line": 13, "column": 33 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 15 },
+                "end": { "line": 15, "column": 46 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 0 },
+                "end": { "line": 20, "column": 2 }
+            },
+            "7": {
+                "start": { "line": 21, "column": 0 },
+                "end": { "line": 21, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 2, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1 },
+        "f": { "0": 2 },
+        "b": { "0": [0, 2], "1": [2, 2] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "ab7671382882411df9d250120bf5d4120cc013a2",
+        "contentHash": "901d73ccd30af2f2f8cf6fac7a49f6af_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/user/add.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/user/add.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 22 },
+                "end": { "line": 11, "column": 55 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 23 },
+                "end": { "line": 13, "column": 62 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 18 },
+                "end": { "line": 15, "column": 49 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 19 },
+                "end": { "line": 17, "column": 54 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 0 },
+                "end": { "line": 55, "column": 2 }
+            },
+            "8": {
+                "start": { "line": 29, "column": 8 },
+                "end": { "line": 53, "column": 23 }
+            },
+            "9": {
+                "start": { "line": 30, "column": 12 },
+                "end": { "line": 52, "column": 13 }
+            },
+            "10": {
+                "start": { "line": 30, "column": 22 },
+                "end": { "line": 52, "column": 13 }
+            },
+            "11": {
+                "start": { "line": 32, "column": 20 },
+                "end": { "line": 32, "column": 68 }
+            },
+            "12": {
+                "start": { "line": 33, "column": 20 },
+                "end": { "line": 33, "column": 41 }
+            },
+            "13": {
+                "start": { "line": 34, "column": 20 },
+                "end": { "line": 34, "column": 65 }
+            },
+            "14": {
+                "start": { "line": 37, "column": 20 },
+                "end": { "line": 37, "column": 47 }
+            },
+            "15": {
+                "start": { "line": 39, "column": 20 },
+                "end": { "line": 42, "column": 21 }
+            },
+            "16": {
+                "start": { "line": 40, "column": 24 },
+                "end": { "line": 40, "column": 45 }
+            },
+            "17": {
+                "start": { "line": 41, "column": 24 },
+                "end": { "line": 41, "column": 30 }
+            },
+            "18": {
+                "start": { "line": 44, "column": 20 },
+                "end": { "line": 44, "column": 66 }
+            },
+            "19": {
+                "start": { "line": 47, "column": 20 },
+                "end": { "line": 47, "column": 62 }
+            },
+            "20": {
+                "start": { "line": 51, "column": 20 },
+                "end": { "line": 51, "column": 46 }
+            },
+            "21": {
+                "start": { "line": 56, "column": 0 },
+                "end": { "line": 56, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 27, "column": 22 },
+                    "end": { "line": 27, "column": 29 }
+                },
+                "loc": {
+                    "start": { "line": 27, "column": 53 },
+                    "end": { "line": 54, "column": 5 }
+                },
+                "line": 27
+            },
+            "2": {
+                "name": "resolve$",
+                "decl": {
+                    "start": { "line": 29, "column": 49 },
+                    "end": { "line": 29, "column": 57 }
+                },
+                "loc": {
+                    "start": { "line": 29, "column": 71 },
+                    "end": { "line": 53, "column": 9 }
+                },
+                "line": 29
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            },
+            "2": {
+                "loc": {
+                    "start": { "line": 30, "column": 22 },
+                    "end": { "line": 52, "column": 13 }
+                },
+                "type": "switch",
+                "locations": [
+                    {
+                        "start": { "line": 31, "column": 16 },
+                        "end": { "line": 34, "column": 65 }
+                    },
+                    {
+                        "start": { "line": 36, "column": 16 },
+                        "end": { "line": 44, "column": 66 }
+                    },
+                    {
+                        "start": { "line": 46, "column": 16 },
+                        "end": { "line": 47, "column": 62 }
+                    },
+                    {
+                        "start": { "line": 49, "column": 16 },
+                        "end": { "line": 49, "column": 23 }
+                    },
+                    {
+                        "start": { "line": 50, "column": 16 },
+                        "end": { "line": 51, "column": 46 }
+                    }
+                ],
+                "line": 30
+            },
+            "3": {
+                "loc": {
+                    "start": { "line": 39, "column": 20 },
+                    "end": { "line": 42, "column": 21 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 39, "column": 20 },
+                        "end": { "line": 42, "column": 21 }
+                    },
+                    {
+                        "start": { "line": 39, "column": 20 },
+                        "end": { "line": 42, "column": 21 }
+                    }
+                ],
+                "line": 39
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 1
+        },
+        "f": { "0": 2, "1": 0, "2": 0 },
+        "b": { "0": [0, 2], "1": [2, 2], "2": [0, 0, 0, 0, 0], "3": [0, 0] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "fe845ac148fbd62828ff91e42894eb7874cc2447",
+        "contentHash": "6d10a7d90ff27dc4a04f30ae5a28aaf9_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/user-input.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/types/user-input.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 15 },
+                "end": { "line": 7, "column": 33 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 26 },
+                "end": { "line": 9, "column": 57 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 0 },
+                "end": { "line": 27, "column": 3 }
+            },
+            "4": {
+                "start": { "line": 28, "column": 0 },
+                "end": { "line": 28, "column": 36 }
+            }
+        },
+        "fnMap": {},
+        "branchMap": {},
+        "s": { "0": 1, "1": 1, "2": 1, "3": 1, "4": 1 },
+        "f": {},
+        "b": {},
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "0eac3cc56b9bd1a7c8222e8080846d405327e8b3",
+        "contentHash": "65cb62e899c92cf3d5888dc6a739e184_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/user/remove.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/mutations/user/remove.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 17 },
+                "end": { "line": 11, "column": 44 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 18 },
+                "end": { "line": 13, "column": 52 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 21 },
+                "end": { "line": 15, "column": 52 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 22 },
+                "end": { "line": 17, "column": 60 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 18 },
+                "end": { "line": 19, "column": 49 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 19 },
+                "end": { "line": 21, "column": 54 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 61, "column": 2 }
+            },
+            "10": {
+                "start": { "line": 33, "column": 8 },
+                "end": { "line": 59, "column": 23 }
+            },
+            "11": {
+                "start": { "line": 34, "column": 12 },
+                "end": { "line": 58, "column": 13 }
+            },
+            "12": {
+                "start": { "line": 34, "column": 22 },
+                "end": { "line": 58, "column": 13 }
+            },
+            "13": {
+                "start": { "line": 36, "column": 20 },
+                "end": { "line": 36, "column": 87 }
+            },
+            "14": {
+                "start": { "line": 37, "column": 20 },
+                "end": { "line": 37, "column": 41 }
+            },
+            "15": {
+                "start": { "line": 38, "column": 20 },
+                "end": { "line": 40, "column": 31 }
+            },
+            "16": {
+                "start": { "line": 43, "column": 20 },
+                "end": { "line": 43, "column": 51 }
+            },
+            "17": {
+                "start": { "line": 45, "column": 20 },
+                "end": { "line": 48, "column": 21 }
+            },
+            "18": {
+                "start": { "line": 46, "column": 24 },
+                "end": { "line": 46, "column": 45 }
+            },
+            "19": {
+                "start": { "line": 47, "column": 24 },
+                "end": { "line": 47, "column": 30 }
+            },
+            "20": {
+                "start": { "line": 50, "column": 20 },
+                "end": { "line": 50, "column": 64 }
+            },
+            "21": {
+                "start": { "line": 53, "column": 20 },
+                "end": { "line": 53, "column": 73 }
+            },
+            "22": {
+                "start": { "line": 57, "column": 20 },
+                "end": { "line": 57, "column": 46 }
+            },
+            "23": {
+                "start": { "line": 62, "column": 0 },
+                "end": { "line": 62, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 31, "column": 22 },
+                    "end": { "line": 31, "column": 29 }
+                },
+                "loc": {
+                    "start": { "line": 31, "column": 53 },
+                    "end": { "line": 60, "column": 5 }
+                },
+                "line": 31
+            },
+            "2": {
+                "name": "resolve$",
+                "decl": {
+                    "start": { "line": 33, "column": 49 },
+                    "end": { "line": 33, "column": 57 }
+                },
+                "loc": {
+                    "start": { "line": 33, "column": 71 },
+                    "end": { "line": 59, "column": 9 }
+                },
+                "line": 33
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            },
+            "2": {
+                "loc": {
+                    "start": { "line": 34, "column": 22 },
+                    "end": { "line": 58, "column": 13 }
+                },
+                "type": "switch",
+                "locations": [
+                    {
+                        "start": { "line": 35, "column": 16 },
+                        "end": { "line": 40, "column": 31 }
+                    },
+                    {
+                        "start": { "line": 42, "column": 16 },
+                        "end": { "line": 50, "column": 64 }
+                    },
+                    {
+                        "start": { "line": 52, "column": 16 },
+                        "end": { "line": 53, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 55, "column": 16 },
+                        "end": { "line": 55, "column": 23 }
+                    },
+                    {
+                        "start": { "line": 56, "column": 16 },
+                        "end": { "line": 57, "column": 46 }
+                    }
+                ],
+                "line": 34
+            },
+            "3": {
+                "loc": {
+                    "start": { "line": 45, "column": 20 },
+                    "end": { "line": 48, "column": 21 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 45, "column": 20 },
+                        "end": { "line": 48, "column": 21 }
+                    },
+                    {
+                        "start": { "line": 45, "column": 20 },
+                        "end": { "line": 48, "column": 21 }
+                    }
+                ],
+                "line": 45
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 1
+        },
+        "f": { "0": 3, "1": 0, "2": 0 },
+        "b": { "0": [0, 3], "1": [3, 3], "2": [0, 0, 0, 0, 0], "3": [0, 0] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "3a9ec80395259dadd7fc976b50e6921c47820a1d",
+        "contentHash": "09f5abb345946abd06e4b852c8589a82_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/index.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/index.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 15 },
+                "end": { "line": 7, "column": 256 }
+            },
+            "2": {
+                "start": { "line": 7, "column": 52 },
+                "end": { "line": 7, "column": 239 }
+            },
+            "3": {
+                "start": { "line": 7, "column": 110 },
+                "end": { "line": 7, "column": 122 }
+            },
+            "4": {
+                "start": { "line": 7, "column": 124 },
+                "end": { "line": 7, "column": 237 }
+            },
+            "5": {
+                "start": { "line": 7, "column": 150 },
+                "end": { "line": 7, "column": 235 }
+            },
+            "6": {
+                "start": { "line": 7, "column": 207 },
+                "end": { "line": 7, "column": 233 }
+            },
+            "7": {
+                "start": { "line": 7, "column": 240 },
+                "end": { "line": 7, "column": 254 }
+            },
+            "8": {
+                "start": { "line": 9, "column": 39 },
+                "end": { "line": 9, "column": 95 }
+            },
+            "9": {
+                "start": { "line": 11, "column": 16 },
+                "end": { "line": 11, "column": 38 }
+            },
+            "10": {
+                "start": { "line": 13, "column": 17 },
+                "end": { "line": 13, "column": 50 }
+            },
+            "11": {
+                "start": { "line": 15, "column": 15 },
+                "end": { "line": 15, "column": 35 }
+            },
+            "12": {
+                "start": { "line": 17, "column": 16 },
+                "end": { "line": 17, "column": 48 }
+            },
+            "13": {
+                "start": { "line": 19, "column": 12 },
+                "end": { "line": 19, "column": 29 }
+            },
+            "14": {
+                "start": { "line": 21, "column": 13 },
+                "end": { "line": 21, "column": 42 }
+            },
+            "15": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 23, "column": 98 }
+            },
+            "16": {
+                "start": { "line": 24, "column": 0 },
+                "end": { "line": 24, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "(anonymous_0)",
+                "decl": {
+                    "start": { "line": 7, "column": 32 },
+                    "end": { "line": 7, "column": 33 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 50 },
+                    "end": { "line": 7, "column": 256 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 9, "column": 9 },
+                    "end": { "line": 9, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 9, "column": 37 },
+                    "end": { "line": 9, "column": 97 }
+                },
+                "line": 9
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 15 },
+                    "end": { "line": 7, "column": 256 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 15 },
+                        "end": { "line": 7, "column": 28 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 32 },
+                        "end": { "line": 7, "column": 256 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 150 },
+                    "end": { "line": 7, "column": 235 }
+                },
+                "type": "if",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 150 },
+                        "end": { "line": 7, "column": 235 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 150 },
+                        "end": { "line": 7, "column": 235 }
+                    }
+                ],
+                "line": 7
+            },
+            "2": {
+                "loc": {
+                    "start": { "line": 9, "column": 46 },
+                    "end": { "line": 9, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 9, "column": 70 },
+                        "end": { "line": 9, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 9, "column": 76 },
+                        "end": { "line": 9, "column": 94 }
+                    }
+                ],
+                "line": 9
+            },
+            "3": {
+                "loc": {
+                    "start": { "line": 9, "column": 46 },
+                    "end": { "line": 9, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 9, "column": 46 },
+                        "end": { "line": 9, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 9, "column": 53 },
+                        "end": { "line": 9, "column": 67 }
+                    }
+                ],
+                "line": 9
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 0,
+            "8": 3,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1
+        },
+        "f": { "0": 0, "1": 3 },
+        "b": { "0": [1, 0], "1": [0, 0], "2": [0, 3], "3": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "11fc8f910a3ec14041f9994206a88c1cb1c830ba",
+        "contentHash": "5a54f1e5cdd2046bf6deb5ee52e764fc_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/blog-post/index.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/blog-post/index.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 14 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 15 },
+                "end": { "line": 11, "column": 46 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 15 },
+                "end": { "line": 13, "column": 35 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 16 },
+                "end": { "line": 15, "column": 48 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 0 },
+                "end": { "line": 20, "column": 2 }
+            },
+            "7": {
+                "start": { "line": 21, "column": 0 },
+                "end": { "line": 21, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 2, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1 },
+        "f": { "0": 2 },
+        "b": { "0": [0, 2], "1": [2, 2] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "dd6ea755990c4075b8e4acf55e3b59c50951c8c4",
+        "contentHash": "39a5328285f3c62f12acd545778a4540_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/blog-post/single.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/blog-post/single.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 16 },
+                "end": { "line": 11, "column": 35 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 21 },
+                "end": { "line": 13, "column": 53 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 22 },
+                "end": { "line": 15, "column": 60 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 21 },
+                "end": { "line": 17, "column": 52 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 22 },
+                "end": { "line": 19, "column": 60 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 22 },
+                "end": { "line": 21, "column": 58 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 23 },
+                "end": { "line": 23, "column": 62 }
+            },
+            "10": {
+                "start": { "line": 25, "column": 0 },
+                "end": { "line": 39, "column": 2 }
+            },
+            "11": {
+                "start": { "line": 34, "column": 21 },
+                "end": { "line": 34, "column": 94 }
+            },
+            "12": {
+                "start": { "line": 35, "column": 4 },
+                "end": { "line": 37, "column": 33 }
+            },
+            "13": {
+                "start": { "line": 40, "column": 0 },
+                "end": { "line": 40, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 33, "column": 20 },
+                    "end": { "line": 33, "column": 27 }
+                },
+                "loc": {
+                    "start": { "line": 33, "column": 53 },
+                    "end": { "line": 38, "column": 3 }
+                },
+                "line": 33
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 0,
+            "12": 0,
+            "13": 1
+        },
+        "f": { "0": 3, "1": 0 },
+        "b": { "0": [0, 3], "1": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "cc5a42ad3b5ded8c42b2d77b44b37dca3c101b00",
+        "contentHash": "08caf474a299e5514673c817669c7536_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/blog-post/mutiple.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/blog-post/mutiple.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 21 },
+                "end": { "line": 11, "column": 53 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 22 },
+                "end": { "line": 13, "column": 60 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 21 },
+                "end": { "line": 15, "column": 52 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 22 },
+                "end": { "line": 17, "column": 60 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 22 },
+                "end": { "line": 19, "column": 58 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 23 },
+                "end": { "line": 21, "column": 62 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 31, "column": 2 }
+            },
+            "10": {
+                "start": { "line": 27, "column": 25 },
+                "end": { "line": 27, "column": 98 }
+            },
+            "11": {
+                "start": { "line": 29, "column": 8 },
+                "end": { "line": 29, "column": 105 }
+            },
+            "12": {
+                "start": { "line": 32, "column": 0 },
+                "end": { "line": 32, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 26, "column": 22 },
+                    "end": { "line": 26, "column": 29 }
+                },
+                "loc": {
+                    "start": { "line": 26, "column": 55 },
+                    "end": { "line": 30, "column": 5 }
+                },
+                "line": 26
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 0,
+            "11": 0,
+            "12": 1
+        },
+        "f": { "0": 3, "1": 0 },
+        "b": { "0": [0, 3], "1": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "56830153250a0cbb28fd81db06320fa033d261c7",
+        "contentHash": "46885fc5405daa35828eaa9656f1112b_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/comment/index.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/comment/index.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 14 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 15 },
+                "end": { "line": 11, "column": 46 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 15 },
+                "end": { "line": 13, "column": 35 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 16 },
+                "end": { "line": 15, "column": 48 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 0 },
+                "end": { "line": 20, "column": 2 }
+            },
+            "7": {
+                "start": { "line": 21, "column": 0 },
+                "end": { "line": 21, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 2, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1 },
+        "f": { "0": 2 },
+        "b": { "0": [0, 2], "1": [2, 2] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "9309a3d2bdfdf9dfe7e45cca2b8489975bf9997f",
+        "contentHash": "28c9714fcd2264646b165650662aa61f_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/comment/single.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/comment/single.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 16 },
+                "end": { "line": 11, "column": 35 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 20 },
+                "end": { "line": 13, "column": 50 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 21 },
+                "end": { "line": 15, "column": 58 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 21 },
+                "end": { "line": 17, "column": 52 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 22 },
+                "end": { "line": 19, "column": 60 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 21 },
+                "end": { "line": 21, "column": 55 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 22 },
+                "end": { "line": 23, "column": 60 }
+            },
+            "10": {
+                "start": { "line": 25, "column": 0 },
+                "end": { "line": 38, "column": 2 }
+            },
+            "11": {
+                "start": { "line": 34, "column": 21 },
+                "end": { "line": 34, "column": 94 }
+            },
+            "12": {
+                "start": { "line": 36, "column": 4 },
+                "end": { "line": 36, "column": 82 }
+            },
+            "13": {
+                "start": { "line": 39, "column": 0 },
+                "end": { "line": 39, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 33, "column": 20 },
+                    "end": { "line": 33, "column": 27 }
+                },
+                "loc": {
+                    "start": { "line": 33, "column": 53 },
+                    "end": { "line": 37, "column": 3 }
+                },
+                "line": 33
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 0,
+            "12": 0,
+            "13": 1
+        },
+        "f": { "0": 3, "1": 0 },
+        "b": { "0": [0, 3], "1": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "6259e471d8a1730d120f0a44a573911709dc4a30",
+        "contentHash": "f4336309b30df883695e307941c1ca93_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/comment/mutiple.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/comment/mutiple.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 20 },
+                "end": { "line": 11, "column": 50 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 21 },
+                "end": { "line": 13, "column": 58 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 21 },
+                "end": { "line": 15, "column": 52 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 22 },
+                "end": { "line": 17, "column": 60 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 21 },
+                "end": { "line": 19, "column": 55 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 22 },
+                "end": { "line": 21, "column": 60 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 38, "column": 2 }
+            },
+            "10": {
+                "start": { "line": 32, "column": 21 },
+                "end": { "line": 32, "column": 94 }
+            },
+            "11": {
+                "start": { "line": 34, "column": 4 },
+                "end": { "line": 36, "column": 33 }
+            },
+            "12": {
+                "start": { "line": 39, "column": 0 },
+                "end": { "line": 39, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 31, "column": 20 },
+                    "end": { "line": 31, "column": 27 }
+                },
+                "loc": {
+                    "start": { "line": 31, "column": 53 },
+                    "end": { "line": 37, "column": 3 }
+                },
+                "line": 31
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 0,
+            "11": 0,
+            "12": 1
+        },
+        "f": { "0": 3, "1": 0 },
+        "b": { "0": [0, 3], "1": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "f762ca1421e69b38f3f3ef4a31c121907ebcd806",
+        "contentHash": "f1e81af6ec65dd7fbcc4dc8d07d0401a_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/user/index.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/user/index.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 14 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 15 },
+                "end": { "line": 11, "column": 46 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 15 },
+                "end": { "line": 13, "column": 35 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 16 },
+                "end": { "line": 15, "column": 48 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 0 },
+                "end": { "line": 20, "column": 2 }
+            },
+            "7": {
+                "start": { "line": 21, "column": 0 },
+                "end": { "line": 21, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": { "0": 1, "1": 2, "2": 1, "3": 1, "4": 1, "5": 1, "6": 1, "7": 1 },
+        "f": { "0": 2 },
+        "b": { "0": [0, 2], "1": [2, 2] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "1ee3c5334d7752b18e855169f5adc90e475e1f18",
+        "contentHash": "2f4816204a31ae97ad2f2ef26df899ab_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/user/single.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/user/single.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 16 },
+                "end": { "line": 11, "column": 35 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 17 },
+                "end": { "line": 13, "column": 44 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 18 },
+                "end": { "line": 15, "column": 52 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 21 },
+                "end": { "line": 17, "column": 52 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 22 },
+                "end": { "line": 19, "column": 60 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 18 },
+                "end": { "line": 21, "column": 49 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 19 },
+                "end": { "line": 23, "column": 54 }
+            },
+            "10": {
+                "start": { "line": 25, "column": 0 },
+                "end": { "line": 38, "column": 2 }
+            },
+            "11": {
+                "start": { "line": 34, "column": 25 },
+                "end": { "line": 34, "column": 98 }
+            },
+            "12": {
+                "start": { "line": 36, "column": 8 },
+                "end": { "line": 36, "column": 83 }
+            },
+            "13": {
+                "start": { "line": 39, "column": 0 },
+                "end": { "line": 39, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 33, "column": 22 },
+                    "end": { "line": 33, "column": 29 }
+                },
+                "loc": {
+                    "start": { "line": 33, "column": 55 },
+                    "end": { "line": 37, "column": 5 }
+                },
+                "line": 33
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 0,
+            "12": 0,
+            "13": 1
+        },
+        "f": { "0": 3, "1": 0 },
+        "b": { "0": [0, 3], "1": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "243e5103109c8967be5dc6e743be3745c45c85fc",
+        "contentHash": "fd15ad5f0ca175325b69bd74d73e2240_11.6.0"
+    },
+    "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/user/mutiple.js": {
+        "path":
+            "/Users/macbookproretina13/Projects/Graph Lab/graphql-blog/graphql/queries/user/mutiple.js",
+        "statementMap": {
+            "0": {
+                "start": { "line": 3, "column": 0 },
+                "end": { "line": 5, "column": 3 }
+            },
+            "1": {
+                "start": { "line": 7, "column": 39 },
+                "end": { "line": 7, "column": 95 }
+            },
+            "2": {
+                "start": { "line": 9, "column": 15 },
+                "end": { "line": 9, "column": 33 }
+            },
+            "3": {
+                "start": { "line": 11, "column": 17 },
+                "end": { "line": 11, "column": 44 }
+            },
+            "4": {
+                "start": { "line": 13, "column": 18 },
+                "end": { "line": 13, "column": 52 }
+            },
+            "5": {
+                "start": { "line": 15, "column": 21 },
+                "end": { "line": 15, "column": 52 }
+            },
+            "6": {
+                "start": { "line": 17, "column": 22 },
+                "end": { "line": 17, "column": 60 }
+            },
+            "7": {
+                "start": { "line": 19, "column": 18 },
+                "end": { "line": 19, "column": 49 }
+            },
+            "8": {
+                "start": { "line": 21, "column": 19 },
+                "end": { "line": 21, "column": 54 }
+            },
+            "9": {
+                "start": { "line": 23, "column": 0 },
+                "end": { "line": 33, "column": 2 }
+            },
+            "10": {
+                "start": { "line": 27, "column": 25 },
+                "end": { "line": 27, "column": 98 }
+            },
+            "11": {
+                "start": { "line": 29, "column": 8 },
+                "end": { "line": 31, "column": 19 }
+            },
+            "12": {
+                "start": { "line": 34, "column": 0 },
+                "end": { "line": 34, "column": 36 }
+            }
+        },
+        "fnMap": {
+            "0": {
+                "name": "_interopRequireDefault",
+                "decl": {
+                    "start": { "line": 7, "column": 9 },
+                    "end": { "line": 7, "column": 31 }
+                },
+                "loc": {
+                    "start": { "line": 7, "column": 37 },
+                    "end": { "line": 7, "column": 97 }
+                },
+                "line": 7
+            },
+            "1": {
+                "name": "resolve",
+                "decl": {
+                    "start": { "line": 26, "column": 22 },
+                    "end": { "line": 26, "column": 29 }
+                },
+                "loc": {
+                    "start": { "line": 26, "column": 55 },
+                    "end": { "line": 32, "column": 5 }
+                },
+                "line": 26
+            }
+        },
+        "branchMap": {
+            "0": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 94 }
+                },
+                "type": "cond-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 70 },
+                        "end": { "line": 7, "column": 73 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 76 },
+                        "end": { "line": 7, "column": 94 }
+                    }
+                ],
+                "line": 7
+            },
+            "1": {
+                "loc": {
+                    "start": { "line": 7, "column": 46 },
+                    "end": { "line": 7, "column": 67 }
+                },
+                "type": "binary-expr",
+                "locations": [
+                    {
+                        "start": { "line": 7, "column": 46 },
+                        "end": { "line": 7, "column": 49 }
+                    },
+                    {
+                        "start": { "line": 7, "column": 53 },
+                        "end": { "line": 7, "column": 67 }
+                    }
+                ],
+                "line": 7
+            }
+        },
+        "s": {
+            "0": 1,
+            "1": 3,
+            "2": 1,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1,
+            "9": 1,
+            "10": 1,
+            "11": 1,
+            "12": 1
+        },
+        "f": { "0": 3, "1": 1 },
+        "b": { "0": [0, 3], "1": [3, 3] },
+        "_coverageSchema": "332fd63041d2c1bcb487cc26dd0d5f7d97098a6c",
+        "hash": "2750a0cecefa969d07aabb9a0d1ad85945767931",
+        "contentHash": "4c6ddce2ba8e0daf76d7fe9538cc17e8_11.6.0"
+    }
+}
