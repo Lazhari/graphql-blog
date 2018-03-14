@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+    - "4.8"
+    - "5.12"
+    - "6.13"
+    - "7.10"
+    - "8.10"
+    - "9.8"
+services:
+    - mongodb
+env:
+  global:
+    - NODE_ENV=test
+after_success: npm run coverage
+cache:
+  directories:
+    - node_modules
