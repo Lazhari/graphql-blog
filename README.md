@@ -1,25 +1,30 @@
 # GraphQL-MongoDB Blog
 
-GraphQL Blog in Node.js using Express, MongoDB and Mongoose.
+[![Build Status](https://travis-ci.org/Lazhari/graphql-blog.svg?branch=master)](https://travis-ci.org/Lazhari/graphql-blog)
+
+> GraphQL Blog in Node.js using Express, MongoDB and Mongoose.
 
 ## Get start
+
 ```
-$ npm install 
+$ npm install
 $ npm start
 ```
 
 ## Requirements
 
-* [Node.js](http://nodejs.org/)
-* [MongoDB](https://www.mongodb.org/)
+*   [Node.js](http://nodejs.org/)
+*   [MongoDB](https://www.mongodb.org/)
 
 ## References
-* [Creating a GraphQL Server with Node.js and MongoDB](https://www.sitepoint.com/creating-graphql-server-nodejs-mongodb/)
-* [sitepoint-editors/graphql-nodejs](https://github.com/sitepoint-editors/graphql-nodejs)
+
+*   [Creating a GraphQL Server with Node.js and MongoDB](https://www.sitepoint.com/creating-graphql-server-nodejs-mongodb/)
+*   [sitepoint-editors/graphql-nodejs](https://github.com/sitepoint-editors/graphql-nodejs)
 
 ## Mutations & Queries
 
 ### Mutation: Add User
+
 ```
 curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: c77d5e4f-5bc9-f897-a458-525fd72ea7d6" -d '{
     "query": "mutation ($data: UserInput!) { addUser(data: $data) }",
@@ -35,13 +40,15 @@ curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H
 ```
 
 ### Query: Get all users (with firstName lastName email)
-````
+
+```
 curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: 4a99a27b-e998-5d61-e8a1-2831159fac2b" -d '{
     "query": "query { users { firstName, lastName, email } }"
 }' "http://localhost:8080/graphql"
-````
+```
 
 ### Mutation: Add blog post
+
 ```
 curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: 713ce4d8-bf9a-f86d-3940-0628a27fed69" -d '{
     "query": "mutation ($data: BlogPostInput!) { addBlogPost(data: $data) }",
@@ -64,6 +71,7 @@ curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H
 ```
 
 ### Mutation: Add blog post 3 and add comment to post
+
 ```
 curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H "Postman-Token: 3ce5d4fa-3900-ff8e-ae1f-0b94521faa64" -d '{
     "query": "mutation ($data: BlogPostInput!, $commentData: CommentInput!) { addBlogPost(data: $data) addComment(data: $commentData) }",
@@ -81,7 +89,6 @@ curl -X POST -H "Content-Type: application/json" -H "Cache-Control: no-cache" -H
     }
 }' "http://localhost:8080/graphql"
 ```
-
 
 ## License
 
