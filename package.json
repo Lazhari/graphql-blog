@@ -7,8 +7,10 @@
         "type": "git",
         "url": "https://github.com/bruno12mota/graphql-nodejs"
     },
+    "main": "src/index.js",
     "scripts": {
-        "start": "node index.js",
+        "start":
+            "nodemon src/index.js --exec babel-node --presets es2015,stage-2",
         "dev": "nodemon index.js",
         "precommit": "lint-staged",
         "test":
