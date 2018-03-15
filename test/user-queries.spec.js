@@ -1,9 +1,9 @@
-require('babel/register');
-const User = require('../models/user');
+import chai from 'chai';
+import chaiHttp from 'chai-http';
 
-const chai = require('chai');
-const chaiHttp = require('chai-http');
-const server = require('../app');
+import User from '../src/models/user';
+
+import server from '../src';
 
 const { expect } = chai;
 chai.use(chaiHttp);
