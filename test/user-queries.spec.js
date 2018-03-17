@@ -29,8 +29,10 @@ describe('Users Queries', () => {
 describe('User Query', () => {
     it('Request User by ID', () => {
         const query = `
-            user(id: "58238f9c81164a0ba9e31617") {
-                _id
+            {
+                user(id:"58238f9c81164a0ba9e31617"){
+                    _id
+                }
             }
         `;
 
